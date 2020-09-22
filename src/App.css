@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.products{
+  border: black solid 1px;
+  margin: 5rem auto;
+  display: flex;
+  flex-basis: 50%
+}
+
+.product{
+  border: brown solid 1px;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  align-items: baseline ;
+  /* justify-content: space-between; */
+}
+.product > img{
+  width: 10%
+}
+li{
+  list-style: none;
+}
