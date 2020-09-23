@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Products from './Products'
 import Router from './Router'
 import {BrowserRouter} from 'react-router-dom'
 

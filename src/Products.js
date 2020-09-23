@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector} from 'react-redux'
 import {useHistory} from 'react-router'
 
 export default function Products() {

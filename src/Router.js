@@ -4,6 +4,7 @@ import {Switch, Route} from 'react-router-dom'
 
 import Product from './Product'
 import Products from './Products'
+import Cart from './Cart'
 export default function Routes() {
 
 
@@ -17,6 +18,9 @@ export default function Routes() {
                 </Route>
                 <Route exact path="/products/:id">
                     <Product/>
+                </Route>
+                <Route exact path="/cart">
+                    <Cart/>
                 </Route>
             </Switch>
         </div>
