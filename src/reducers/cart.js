@@ -6,7 +6,6 @@ export default function cart(state = {}, action) {
         case "ADD_ITEM_FOR_THE_FIRST_TIME":
             return {...state, [action.id]:{...action.product, count:1}}
         case "ADD_ITEM_AGAIN":
-            console.log(action)
             return {...state, [action.id]: {...action.product, count: action.count} }
 
         case "REMOVE_PARTIALLY_FROM_CART":
