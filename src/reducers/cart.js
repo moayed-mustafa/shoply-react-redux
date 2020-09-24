@@ -1,5 +1,3 @@
-import products from './products'
-
 
 export default function cart(state = {}, action) {
     switch (action.type) {

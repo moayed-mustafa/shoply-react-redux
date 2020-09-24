@@ -2,8 +2,7 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { useParams, useHistory } from 'react-router'
 import { addToCartForTheFirstTime, addToCartAgain, removePartially, removeCompletely } from './actionCreator'
-import  CartContext  from './CartContext'
-import Buttons from './Buttons'
+
 
 
 export default function Product() {
@@ -42,7 +41,6 @@ export default function Product() {
                             <p>Name:{product.name}</p>
                             <p>Price:{product.price}</p>
                 <p>ID:  {id}</p>
-                    {/* <Buttons add="Add To Cart" remove="Remove From Cart"/> */}
 
                             <button onClick={addToCart}> Add To Cart</button>
                             <button onClick={removeFromCart}>Remove From Cart</button>
